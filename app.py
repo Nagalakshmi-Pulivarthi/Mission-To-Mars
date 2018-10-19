@@ -8,7 +8,7 @@ import datetime as dt
 import scrap_mars 
 from scrap_mars  import scrape
 from flask import render_template
-
+from splinter import Browser
 
 app = Flask(__name__)
 @app.route("/")
